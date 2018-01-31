@@ -31,8 +31,8 @@ void connect(int a, int b, int w){
 
 long long dfs(int u, int b){
     if (u == t) return b;
-    int ans = 0;
-    for (int &e = cur[u]; e < n; e++){
+    long long ans = 0;
+    for (int &e = cur[u]; e < g[u].size(); e++){
         int v = g[u][e].v, cid = g[u][e].id, revid = g[u][e].revid;
         if (d[v] == d[u] + 1 && r[cid] > 0){
             long long w = dfs(v, min(b, r[cid]));
