@@ -44,7 +44,7 @@ bool bfs(){
             }
         }
     }
-    return d[t] > 0;
+    return d[t] != inf;
 }
 
 int augment(){
