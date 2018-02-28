@@ -2,7 +2,7 @@ Common Algorithms in C++
 ===
 ##### Goal:
 
-​	Implementations of common, useful algorithms in C++ written in a non-OOP manner	
+​	Implementations of common, useful algorithms in C++
 
 
 
