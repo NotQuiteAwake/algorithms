@@ -1,4 +1,4 @@
-//VERIFY RELIABILITY BEFORE USE.
+//Treap
 #include <cstring>
 #include <cstdio>
 #include <iostream>
@@ -43,7 +43,6 @@ struct Treap {
 				if (prio[ch[x][t]] < prio[x]) rotate(x, t);
 			}
 		}
-
 		else {
 			x = treapCnt++;
 			key[x] = k;
