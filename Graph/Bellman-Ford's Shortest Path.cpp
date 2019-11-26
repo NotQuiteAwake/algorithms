@@ -28,7 +28,7 @@ inline void init(int s) {
 	for (int i = 0; i < MAXN; i++) dist[i] = inf, vis[i] = false; dist[s] = 0; vis[s] = true;
 }
 
-void spfa(int s) {
+void bellman_ford(int s) {
 	init(s);
 	int cur;
 	q.push(s);
@@ -53,7 +53,7 @@ int main() {
 		cin >> __u >> __v >> __w;
 		connect(__u, __v, __w);
 	}
-	spfa(s);
+	bellman_ford(s);
 	for (int i = 1; i <= n; i++) {
 		cout << dist[i] << " ";
 	}
