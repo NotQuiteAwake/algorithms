@@ -1,11 +1,7 @@
-Common Algorithms in C++
-===
-##### Goal:
+# Algorithms
 
-​	Implementations of common, useful algorithms in C++
+Some templates I wrote in preparation of informatics olympiads.
 
+Maybe I'll start adding stuff again sometime, just for fun.
 
-
-##### Important Notice:
-
-​	This is created only for my own study purposes. Help, correction and advice are welcome, but please note that these algorithms DO NOT PROMISE a 100% correctness.
+The code is released under the MIT license.
